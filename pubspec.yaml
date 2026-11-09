@@ -1,0 +1,54 @@
+name: my_flutter_app
+description: "물 절약 챌린지 앱 — K-water 2024 빅데이터 공모전 출품작"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.5.2  # 추가된 항목
+  firebase_auth: ^4.4.1  # 추가된 항목
+  cloud_firestore: ^4.17.5
+  sqflite: ^2.2.8
+  mysql_client: ^0.0.27
+  cupertino_icons: ^1.0.6
+  flare_flutter: ^3.0.0
+  lottie: ^1.2.1
+  shared_preferences: ^2.0.6
+  provider: ^6.0.0
+  flutter_map: ^3.1.0  # 추가된 항목
+  latlong2: ^0.8.1  # 추가된 항목
+  csv: ^5.0.0
+  # geolocator: ^8.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/animation_check.json
+    - assets/animation_correct.json
+    - assets/animation_wrong.json
+    - assets/animation_cry.json
+    - assets/images/level1.png
+    - assets/images/level2.png
+    - assets/images/level3.png
+    - assets/images/level4.png
+    - assets/images/level5.png
+    - assets/images/level6.png
+    - assets/images/level7.png
+    - assets/animation_harvest.json
+    - assets/background.jpg
+    - assets/gadm41_KOR_2.json  # 추가된 항목
+    - assets/level2.csv
+  fonts:
+    - family: BMHANNA
+      fonts:
+        - asset: assets/fonts/BMHANNAAir_ttf.ttf

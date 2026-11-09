@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E3F4FF"/>
+      <stop offset="1" stop-color="#7FC3EE"/>
+    </linearGradient>
+    <linearGradient id="drop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5BB8F5"/>
+      <stop offset="1" stop-color="#1E7FCB"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#sky)"/>
+  <path d="M0 230 C 150 200, 300 260, 450 230 S 750 200, 900 230 S 1100 260, 1200 230 V 320 H 0 Z" fill="#FFFFFF" fill-opacity="0.35"/>
+  <path d="M0 260 C 160 235, 320 290, 480 260 S 800 235, 960 260 S 1120 285, 1200 262 V 320 H 0 Z" fill="#FFFFFF" fill-opacity="0.45"/>
+  <circle cx="1040" cy="70" r="16" fill="#FFFFFF" fill-opacity="0.5"/>
+  <circle cx="1090" cy="120" r="9" fill="#FFFFFF" fill-opacity="0.5"/>
+  <circle cx="990" cy="140" r="6" fill="#FFFFFF" fill-opacity="0.5"/>
+  <g transform="translate(110 70)">
+    <path d="M60 0 C 60 0, 0 70, 0 108 a60 60 0 0 0 120 0 C 120 70, 60 0, 60 0 Z" fill="url(#drop)"/>
+    <ellipse cx="38" cy="100" rx="10" ry="18" fill="#FFFFFF" fill-opacity="0.45"/>
+    <path d="M60 150 v-38 M60 124 c -14 -4 -22 -14 -22 -26 c 14 2 22 12 22 26 M60 116 c 12 -4 20 -14 20 -26 c -12 2 -20 12 -20 26" stroke="#E9FFE0" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+  <text x="280" y="135" font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif" font-size="58" font-weight="800" fill="#0B3A5E">물 절약 챌린지</text>
+  <text x="282" y="185" font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif" font-size="26" font-weight="600" fill="#1F5F8B">Water Saving Challenge · K-water 2024 빅데이터 공모전</text>
+  <text x="282" y="222" font-family="Pretendard, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif" font-size="20" fill="#2E6F98">미션 · 퀴즈 · 물 사용량 기록으로 나무를 키우는 물 절약 앱</text>
+</svg>
