@@ -61,4 +61,4 @@ flutter run
 
 ## 만든 사람
 
-[deerimhere](https://github.com/deerimhere), [parkbjgit](https://github.com/parkbjgit) · 2024년 7–8월
+[deerimhere](https://github.com/deerimhere), [parkbjgit](https://github.com/parkbjgit), [obh3706](https://github.com/obh3706), 이상욱 · 2024년 7–8월
